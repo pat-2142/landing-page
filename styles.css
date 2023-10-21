@@ -42,20 +42,20 @@ a {
     
 }
 
-.sec-two {
+.header-section-two {
     display: flex;
     justify-content: space-between; /* This will push the logo to the left and nav to the right */
     align-items: center;
 }
 
-.sec-one {
+.header-section-one {
     display: flex;
     justify-content: space-between; /* This will push the logo to the left and nav to the right */
     align-items: center;
 }
 
 .nav-items {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .sec-two-btn {
@@ -72,6 +72,64 @@ a {
 .back {
     flex: 1;
     width: 470px;
-    height: 230px;
+    height: 200px;
     margin-top: 70px;
+}
+
+.body-one {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.body-one-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.body-one-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.body-one-image-container {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+
+.body-one-image {
+    width: 150px;
+    height: 150px;
+    border: solid 5px #3882F6;
+    border-radius: 8px;
+    flex: 0.2;
+}
+
+.body-two {
+    background-color: #E5E7EB;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+.body-two-container {
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.body-two-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.body-two-quote-remark {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 800;
 }
